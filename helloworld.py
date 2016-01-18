@@ -1,10 +1,19 @@
-# replace the contents of this comment with your full name
+#MarcialSegura
 
-# write a program that:
-# 1. greets the user in English
-# 2. asks the user to choose from 1 of 3 spoken languages (pick your favorite languages!) 
-# 3. displays the greeting in the chosen language
-# 4. exits
+print('Hey there! Please choose a number and I will greet you in that language!.') 
 
-# make sure that your code contains comments explaining your logic!
+#Options
+print('Press 1:  Chinese')
+print('Press 2:  Japanese.')
+print('Press 3:  Latin.')
 
+#Create option variable from user.
+option = input()
+
+#Language options
+if option == '1':
+    print('Nǐ hǎo, hěn gāoxìng rènshí nǐ!')
+elif option == '2':
+    print('Anata ni aete kon nichiwa sutekina!')
+elif option == '3':
+    print('Salve delicatus properat tibi in occursum!')
